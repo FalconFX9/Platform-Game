@@ -1,0 +1,77 @@
+5/6/2019
+
+Je, Arthur Goetzke-Coburn, propose de créer un jeu de platformes infini, dont les niveaux seront générés procéduralement,
+selon des règles bien précises. J'ai déjà des classes de base pour la librairie graphique TKinter, que je vais utiliser
+pour ce programme.
+Aujoud'hui, j'ai codé la gravité, le déplacement du joueur, ainsi que les collisions.
+Demain, je créerai le générateur de niveaux, et j'ajouterai de nouvelles fonctionnalités comme un double-saut.
+
+7/6/2019
+
+Aujourd'hui, j'ai crée le générateur de niveaux, et j'ai ajouté un double-saut, ce qui rend certains niveaux impossibles possibles.
+J'ai également ajusté les règles du générateur pour créer de meilleurs niveaux.
+Demain, je vais rajouter des platformes de glace, sur lesquelles le joueur glissera.
+
+10/6/2019
+
+Aujourd'hui, j'ai commencé le travail sur les platformes de glace, mais elle ne fonctionne pas encore parfaitement,
+car si le joueur s'arrête dans les airs (en sautant), il peut atterir immobile sur la platforme de glace.
+Demain, je vais ajuster les mécaniques de glisse sur les platformes, pour résoudre ce problème.
+
+11/6/2019
+
+Aujourd'hui, j'ai fini les platformes de glace, et le joueur continue de glisser dans la dernière direction qu'il a prise,
+même s'il s'arrête dans les airs.
+Également, j'ai essayé de rajouter des ennemis, mais, en faisant cela, j'ai remarqué un bug dans la librairie graphique
+Tkinter, qui m'empêche d'avoir plusieurs entités mobiles dans le jeu, sans que la vitesse du jeu soit affecté.
+Demain, je vais donc migrer vers pygame, afin de faire un jeu plus ouvert à des améliorations et plus efficace.
+
+12/6/2019
+
+Aujourd'hui, j'ai appris comment utiliser pygame, mais je n'ai pas fait de progrès sur le jeu lui-même.
+Demain, je vais recoder le jeu en utilisant pygame.
+
+13/6/2019
+
+Aujourd'hui, j'ai migré la grande majorité du code vers pygame, c'est-à-dire que le joueur est déjà fini, ainsi que le
+générateur. En revanche, il n'y a pas encore de collisions, ce que j'ajouterais demain.
+Demain, je vais ajouter les collisions entre le joueur et les platformes, ainsi que de commencer un menu.
+
+14/6/2019
+
+Aujourd'hui, j'ai ajouté les collisions entre le joueur et les platformes, et j'ai également crée un menu principal, et
+un menu options, où le joueur peut choisir entre différentes difficultés, qui changent la vitesse du joueur, ainsi que
+les paramètres du générateur.
+Demain, je vais finir de mettre en place les menus.
+
+15/6/2019
+
+Aujourd'hui, j'ai ajouté un menu d'aide/tutoriel, qui explique au joueur le fonctionnement du jeu.
+Également, j'ai ajusté les régles du générateur, et j'ai ajouté un conteur de niveaux qui dit au joueur à quel niveau il
+se situe. Aussi, j'ai ajouté du code pour que si le niveau ne génère pas, où génère aucune platforme à cause d'un bug, la
+génération est automatiquement relancée.
+Demain, je vais ajouter un fond d'écran au menu principal.
+
+16/6/2019
+
+Aujourd'hui, j'ai ajouté un fond d'écran animé au menu général, qui montre du gameplay du jeu.
+Cela fonctionne, mais est assez lent (14 fps -- 20% sur le CPU), mais il ne semble pas avoir de moyen d'améliorer cela.
+Demain, je vais ajouter des options de musique au menu options.
+
+17/6/2019
+
+Aujourd'hui, j'ai ajouté 4 options de musique de fond au menu options.
+J'ai également encore ajusté les règles du générateur.
+Demain, je vais ajouter des commentaires et les docstrings au code.
+
+18/6/2019
+
+Aujourd'hui, en plus de finir les docstrings, j'ai ajouté une sorte de lave qui monte, ce qui empêche le joueur de passer
+un temps infini sur un niveau, et cela rend le jeu plus difficile.
+Demain, je vais ajouter les commentaires partout dans le code.
+
+19/6/2019
+
+Aujourd'hui, j'ai ajouté les commentaires dans le code, ainsi que changer les noms de certaines variables qui étaient en anglais.
+La date de remise étant aujourd'hui, le projet est donc fini, mais je vais continuer d'ajouter de nouvelles choses tant
+que coder le jeu me plaît.
